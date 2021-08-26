@@ -1,0 +1,36 @@
+body{
+    font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans;
+    background-color: #ffd55a;
+}
+
+#title {
+    margin-top: 15px;
+    background-color: #293250;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color: red;
+    cursor: default;
+    margin-left: 10px;
+}
+
+#info {
+    margin-right: 60px;
+}
+
+#navi {
+    background-color:#293250;
+}
+
+#pofileInfo {
+    margin-top: 10vh;
+}
+
+.texto1{
+    color: #6dd473;
+}
+
+#footer{
+    background-color: #6dd473;
+    color: white;
+    text-align: center;
+}

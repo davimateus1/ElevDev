@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CDN BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- CDN BUNDLE -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+  
+    <title>Teste ElevDev | Github</title>
+
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark " style="background-color: #6dd473;">
+            <!-- logo -->
+            <img src="assets/logo.png" alt="icone" width="70">
+            <h2 id="title">Teste Elev Dev - Pesquisa Usuários</h2>
+            <!-- Menu Hamburguer -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Opções de navegação  -->
+              <div class="collapse navbar-collapse" id="navegacao"> 
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="info" style="color:#293250">Informações</a>
+                    <!-- Menu dropdown -->
+                    <div class="dropdown-menu" id="navi">
+                      <a href="https://www.instagram.com/davimateus1/" target="_blank" class="dropdown-item text-white">📸 Instagram</a>
+                      <a href="mailto:davimateusga@gmail.com" target="_blank" class="dropdown-item text-white">✉️ Email</a>
+                    </div>
+                  </li>
+                </li>           
+            </ul>
+              </div>
+          </nav>
+    </header>
+    <main>
+      <div class="container m-10" id="pofileInfo">
+        <div class="card card-body" style="background-color:#293250;">
+            <h2 class="texto1">Busca de usuários no Github</h2>
+            <p class="texto1">Digite o login do usuário no campo abaixo:</p>
+ 
+             <input type="text" class="form-control" required id="search">
+        </div>
+        <div id="profile">
+
+        </div>
+    </div>
+    </main>
+
+   <footer>
+     <div class="footer-expand-sm fixed-bottom" id="footer">
+      <p style="color:black;">Projeto realizado por: Davi Mateus</p>
+      <a href="https://github.com/davimateus1" target="_blank">
+        <img src="./assets/github.svg" alt="githubIcon">
+      </a>
+      <a href="https://www.linkedin.com/in/davimateusg/" target="_blank">
+        <img src="./assets/linkedin.svg" alt="linkedin icon">
+      </a>
+     </div>
+   </footer>
+
+</body>
+    <script src="./js/main.js"></script>
+</html>
