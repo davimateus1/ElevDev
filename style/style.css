@@ -1,36 +1,47 @@
-body{
+/* --BODY-- */
+
+body {
     font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans;
     background-color: #fce38a;
-}
-
-#title {
+  }
+  
+  body span {
+    font-weight: bold;
+  }
+  
+  /* --NAVBAR-- */
+  
+  #title {
     margin-top: 15px;
-    background-color: #293250;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    color: red;
+    color: #293250;
     cursor: default;
     margin-left: 10px;
-}
-
-#info {
+  }
+  
+  #info {
     margin-right: 60px;
-}
-
-#navi {
-    background-color:#293250;
-}
-
-#pofileInfo {
-    margin-top: 10vh;
-}
-
-.texto1{
+  }
+  
+  #navi {
+    background-color: #293250;
+  }
+  
+  /* --BARRA DE BUSCA-- */
+  
+  #pofileInfo {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  
+  .texto1 {
     color: #6dd473;
-}
-
-#footer{
+  }
+  
+  /* --FOOTER-- */
+  
+  #footer {
     background-color: #6dd473;
     color: white;
     text-align: center;
-}
+    padding: 1px;
+  }
