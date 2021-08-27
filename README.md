@@ -41,7 +41,7 @@ Você pode visualizar o layout do projeto através [desse link](https://drive.go
 
 <br><br>
 
-## 🚀 Protótipo
+## 🚀 Deploy
 
 Você pode testar e usar a Aplicação através [desse link](https://elev-buscausuarios.vercel.app).
 
