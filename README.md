@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto desenvolvido para tentar uma vaga de estágio na Elev*, consiste em uma aplicação de busca de perfis consumindo a api do Github para a obtenção de dados que utilizo no decorrer do projeto, segue a seguir, as caracteristicas desse projeto:
+Projeto desenvolvido para tentar uma vaga de estágio na Elev*, consiste em uma aplicação de busca de perfis consumindo a api do Github para a obtenção de dados que utilizo no decorrer do projeto, segue as caracteristicas desse projeto:
 
 - Responsividade (A aplicação se encaixa em qualquer modelo de dispositivo e em qualquer resolução)
 - Deploy na web via Vercel App
